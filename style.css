@@ -107,3 +107,12 @@ li{
   
   font-size: 0.95rem;
 }
+@media (max-width: 630px){
+  #main,.upper,.lower{
+    width: auto;
+    height: auto;
+  }
+  #left,#right{
+    width:100%;
+  }
+}
